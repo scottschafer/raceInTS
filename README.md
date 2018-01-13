@@ -9,6 +9,6 @@ To run this sample project, enter the following commands:
 Your application should be hosted on localhost:3000.
 
 Resources:
-https://www.typescriptlang.org
-https://codeburst.io/javascript-wtf-is-es6-es8-es-2017-ecmascript-dca859e4821c
-http://kangax.github.io/compat-table/es5/
+* https://www.typescriptlang.org
+* https://codeburst.io/javascript-wtf-is-es6-es8-es-2017-ecmascript-dca859e4821c
+* http://kangax.github.io/compat-table/es5/
