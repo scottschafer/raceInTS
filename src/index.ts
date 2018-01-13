@@ -1,12 +1,12 @@
 import './index.less';
 
-import { Race } from './ts/Race';
-import { racers } from './ts/racers';
+import { Race } from './typescript/Race';
+import { racers } from './typescript/racers';
 
 $( document ).ready(function() {
   var race = new Race(racers);
 
-  $('#btnGo').click(function() {
+  $('#btnGoTS').click(function() {
     race.start();
   });
 });

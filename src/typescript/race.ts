@@ -7,8 +7,10 @@ export class Race {
   private static readonly INTERVAL_MS = 10;
   private runningInterval: number;
 
-  constructor(private readonly racers:Array<IRacer>) {
-    this.reset();
+  constructor(private readonly racers:Array<IRacer>, showRacers?:boolean) {
+    if (showRacers === true) {
+      this.reset();
+    }
   }
 
   /**

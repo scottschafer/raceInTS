@@ -2,7 +2,7 @@ $( document ).ready(function() {
   var race = new Race(racers);
   race.reset();
 
-  $('#btnGo').click(function() {
+  $('#btnGoJS').click(function() {
     race.start();
   })
 });
